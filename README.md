@@ -1,4 +1,16 @@
-# Photography
-Welcome to Photography website crafted with HTML, CSS &amp; Bootstrap. I've practiced creating a responsive and visually appealing website, demonstrating my proficiency in HTML and CSS. Explore the project to see how I've applied my creativity and knowledge to design an engaging online presence for a fictional Photography
+# Shooter Website
 
-**ScreenShots**
+Welcome to the Shooter website! This project showcases my skills in HTML, CSS, and Bootstrap. The website is designed to be responsive and visually appealing, demonstrating my proficiency in front-end development.
+
+## Overview
+
+This project serves as a demonstration of my creativity and knowledge in web design. By exploring the website, you'll get a glimpse of how I've utilized HTML, CSS, and Bootstrap to create an engaging user experience.
+
+## Technologies Used
+
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+
+## Screenshots
