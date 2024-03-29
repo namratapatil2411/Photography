@@ -1,0 +1,307 @@
+/* *{
+    border: 1px solid red;
+}  */
+
+.navbar-scrolled{
+    background-color: #031b4e;
+    color: black;
+    top: 10;
+    width: 100%;
+  }
+
+#topheader{
+    display: none;
+}
+ /* #bottomheader{
+    position: sticky;
+    top: 0;
+    width: 100%;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+ {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.header a:hover {
+    text-shadow: 1px 1px 5px #d32f2f;
+  }
+
+ .cart-area  i{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #444444;
+}
+#info{
+   padding-bottom: 50px !important;
+}
+
+
+.cart-area span{
+    position: absolute;
+    right: -9px;
+    top: 15px;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    background: #d32f2f;
+    text-align: center;
+    border-radius: 50%;
+}
+.carousel-inner{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+    
+}
+.carousel-inner h1{
+    font-size: 55px;
+
+}
+.button{
+    background-color: #d32f2f;
+}
+.button1{
+    background-color: #ffffff;
+}
+.btn1{
+    background-color: #d32f2f;
+}
+.btn2{
+    background-color:#ffffff;
+}
+.carousel-control-prev-icon {
+    border: 2px dashed #d32f2f !important;
+    color: #ffffff !important;
+    
+    border-radius: 50% !important;
+    font-size: 60px !important;
+    font-weight: 400 !important;
+}
+.carousel-control-next-icon{
+    border: 2px dashed #d32f2f !important;
+    color: #ffffff !important;
+    
+    border-radius: 50% !important;
+    font-size: 60px !important;
+    font-weight: 400 !important;
+}
+.text-center i{
+    font-size: 40px;
+    border: 2px dotted white;
+    padding: 8px 8px;
+}
+.text-center p{
+    padding: 0 20px;
+}
+
+
+.shooter{
+    padding: 80px 40px;
+}
+.shooter button,.run button{
+    box-shadow: 5px 5px 10px #d32f2f;
+}
+.running p, .doller p ,.post p{
+    padding: 0 40px;
+}
+.count{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #d32f2f !important;
+    color: #ffffff !important;
+   
+    
+    border-radius: 50% !important;
+    font-size: 30px !important;
+    font-weight: 400 !important; 
+    padding: 0 50px;
+}
+.sec{
+    padding: 0;
+}
+.value{
+   justify-content: center;
+}
+
+.view{
+    padding: 20px 56px;
+}    
+
+.our{
+    padding: 0 10px;
+}
+
+#feature{
+    margin: 100px 0;
+}
+
+ .lorem{
+    font-size: 30px;
+    color: #d32f2f;
+    margin: 20px 30px;
+}
+.card-body h5{
+    color: #d32f2f;
+    font-size: 23px;
+}
+
+.price{
+    font-size: 23px;
+}
+#product{
+    margin: 100px 0;
+}
+.awesome{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #d32f2f !important;
+    color: #ffffff !important;
+    
+    border-radius: 50% !important;
+    font-size: 20px !important;
+    font-weight: 400 !important; 
+    background-color: black !important;
+    padding: 0 10px;
+    
+
+}
+  
+
+
+
+
+
+.sectionhead h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.sectionhead h2::before{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 40px;
+    height: 2px;
+    content: "";
+    bottom: 5px;
+    margin: auto;
+    background: #d32f2f;
+}
+.sectionhead h2::after{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 60px;
+    height: 2px;
+    content: "";
+    bottom: 0;
+    margin: auto;
+    background: #d32f2f;
+}
+.card{
+    border: none;
+}
+#Background{
+    background-image: url(../images/Background/counter-up.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 990px;
+   background-color: rgba(0, 0, 0, 0.292);
+   margin: 40px 0;
+}
+.number{
+    line-height:40px;
+    text-align: center;
+    margin-top: 70px;
+}
+.number i{
+    color: #d32f2f;
+    font-size: 50px;
+}
+
+#blog{
+    margin: 70px 0;
+}
+
+.arrow {
+    padding: 10px 13px;
+    background-color: #d32f2f;
+    position: fixed;
+    bottom: 50px;
+    z-index: 999;
+    right: 50px;
+    font-size: 10px;
+    color: white;
+   
+  }
+
+@media only screen and (min-width: 1200px){
+    #topheader{
+        display: block;
+        padding: 0 30px;
+    }
+    #bottomheader{
+        padding: 0 50px;
+    }
+    .running p, .doller p ,.post p{
+        padding: 0 200px;
+    }
+    #Background{
+        background-image: url(../images/Background/counter-up.png);
+        background-size: 100% 100%;
+        background-position: center center;
+        height: 300px;
+       background-color: rgba(0, 0, 0, 0.292);
+       margin: 40px 0;
+    
+    
+}
+.foot3{
+    display: block;
+}
+
+}
+@media only screen and (min-width: 768px){
+    #Background{
+        background-image: url(../images/Background/counter-up.png);
+        background-size: 100% 100%;
+        background-position: center center;
+        height: 300px;
+       background-color: rgba(0, 0, 0, 0.292);
+       margin: 40px 0;
+    
+}
+/* .view{
+    padding: 20px 255px;
+}   */
+.shooter button{
+    margin: 12px 0;
+} 
+.arrow {
+    padding: 13px 20px;
+    background-color: #d32f2f;
+    position: fixed;
+    bottom: 50px;
+    z-index: 999;
+    right: 50px;
+    font-size: 15px;
+    color: white;
+   
+  }
+}
